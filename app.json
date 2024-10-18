@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-unstyled-components",
-    "slug": "react-native-unstyled-components",
+    "name": "react-native-styled-components",
+    "slug": "react-native-styled-components",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
