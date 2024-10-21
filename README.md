@@ -13,6 +13,16 @@ The components are built with the following principles:
 
 Haven't got this far yet !
 
+## Components
+
+- [x] Button
+- [x] Text
+- [x] View
+- [x] TextInput
+- [x] Card
+
+More to come!
+
 ## Open Source?
 
 I will eventually open this repo up to pull requests but I am having fun building out the components and will continue to do so myself for the immediate future.
