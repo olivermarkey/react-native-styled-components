@@ -6,21 +6,22 @@ import { View } from "@/src/components/ui/view"
 import { TextInput } from "@/src/components/ui/text-input"
 import { Button } from '@/src/components/ui/button';
 import Theme from '@/src/constants/theme';
+import { Card } from '@/src/components/ui/card';
 
 
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <View style={{ width: "100%", padding: 20, gap: 10 }}>
-        <TextInput
-          placeholder="Hello"
-        />
-        <Button variant="default" size="small">
-          <Text style={{ color: "black" }}>Button</Text>
-        </Button>
-      </View>
+      <Card style={{ width: "90%", gap: 10 }}>
+          <TextInput
+            placeholder="Hello"
+          />
+          <Button variant="default" size="small">
+            <Text style={{ color: "black" }}>Button</Text>
+          </Button>
+      </Card>
       <Text style={styles.title}>Tab One</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+      <View style={styles.separator} />
       <EditScreenInfo path="app/(tabs)/index.tsx" />
     </View >
   );

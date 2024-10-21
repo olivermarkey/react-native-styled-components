@@ -25,6 +25,7 @@ const getInputStyles = (theme: "light" | "dark"): TextStyle => {
         display: "flex",
         height: 40,
         width: "100%",
+        paddingHorizontal: 10,
         borderRadius: 10,
         borderWidth: 1,
         borderColor: Theme[theme]['border'],
